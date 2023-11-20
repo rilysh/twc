@@ -1,0 +1,14 @@
+** twc
+A basic tiny "word" counter.
+
+** Usage
+You can also run =./twc --help= to get this help message.
+
+#+begin_src text
+twc
+usage:
+  --lines (-l)    count lines
+  --chars (-c)    count chars
+  --words (-w)    count words (only alphabetic & numeric chars)
+  --rbyte (-b)    force to count non alphabetic & numeric chars
+#+end_src text
